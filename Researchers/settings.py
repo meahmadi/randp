@@ -26,7 +26,7 @@ SECRET_KEY = 'y_0be13!#2@l86tujb!m-gct&l%*7yz9bsfnlppqe$%qm3x2bm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['7xr.ir','localhost']
 
 
 # Application definition
