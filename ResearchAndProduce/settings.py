@@ -28,7 +28,7 @@ SECRET_KEY = '^9mq32%hx=ydraghn!lb0bh-uzqz5*u&wl_r)y5-z-ugy28+ki'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['7xr.ir']
+ALLOWED_HOSTS = ['7xr.ir','localhost']
 
 
 # Application definition
@@ -72,7 +72,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'fa'
 
 TIME_ZONE = 'Asia/Tehran'
 
@@ -185,24 +185,15 @@ INSTALLED_APPS = [
 LANGUAGES = (
     ## Customize this
     ('en', gettext('en')),
-    ('fa', gettext('fa'))
+    ('fa', gettext('Persian'))
 )
 
 CMS_LANGUAGES = {
     ## Customize this
     1: [
         {
-            'code': 'en',
-            'name': gettext('en'),
-            'redirect_on_fallback': True,
-            'public': True,
-            'hide_untranslated': False,
-        },
-    ],
-    2: [
-        {
             'code': 'fa',
-            'name': gettext('fa'),
+            'name': gettext('Persian'),
             'redirect_on_fallback': True,
             'public': True,
             'hide_untranslated': False,
