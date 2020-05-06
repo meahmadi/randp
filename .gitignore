@@ -128,4 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /project.db
+/db.sqlite3
 /download_db.bat
